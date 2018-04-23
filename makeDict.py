@@ -9,11 +9,11 @@ def removePunctuation(word):
 # Attempt to open the passed file name and return a Counter object with each word in the file counted
 def makeDict(filename):
     with open (filename, "r") as myfile:
-        myDict = Counter()
+        dictionary = Counter()
         for line in myfile:
             for word in line.split():
-                myDict[removePunctuation(word)]+=1
-        return myDict
+                dictionary[removePunctuation(word)]+=1
+        return dictionary
 
 if __name__ == "__main__":
      print(makeDict(sys.argv[1]))

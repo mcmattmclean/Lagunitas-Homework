@@ -1,7 +1,6 @@
-flatList = [1, 2, 3, 4, 5, 6]
-bumpyList = [1, [2, 3], [4, [5, 6]]]
-list2 = [[1,2],3,[[4,5],6],7]
-
+# Take a passed list and recursively flatten it with the following cases:
+# If the current element is a list, flatten it and extend the output list with it.
+# If the current element is not a list, append it to the output list.
 def flattenList(listToFlatten):
     output = []
     for element in listToFlatten:
@@ -11,9 +10,11 @@ def flattenList(listToFlatten):
             output.append(element)
     return output
 
+bumpylist = [[1,2],3,[[4,5],6],7]
+
 print("list before flatten: ")
-print(list2)
+print(bumpylist)
 print("list after flatten: ")
-print(flattenList(list2))
+print(flattenList(bumpylist))
 
 
