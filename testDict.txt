@@ -1,26 +1,15 @@
-Congratulations on being selected to take the next step in our Internship process! We’d like you
-to do some short homework. There are two programming problems presented below. Please
-write Python code to solve each of them. When you are ready to submit your answers, email a
-link to the code (a link to a git repo gets you bonus points!) to matthew.wyatt@lagunitas.com.
-Note that we cannot accept your solutions as email attachments. Feel free to include the
-answers in one file or separate files as you see fit. These shouldn’t take more than an hour to
-do, we think.
-Some things to note:
-• This homework is totally “open notes” - feel free to consult any resource you need to
-solve the problem.
-• Your answers will be judged on correctness and style.
-The homework:
-1. Write a function that takes some text, and returns a dictionary mapping every unique
-word in the text to the number of times it appears. For example, if it were run on the first
-part of the chorus of a well-known song, the output would be like this:
-{'and': 1, 'run': 1, 'around': 1, 'give': 1, 'Never': 3, 'up':
-1, 'gonna': 3, 'down': 1, 'let': 1, 'you': 3, 'desert': 1}
-Hint: the Python collections module has something useful for you here.
-2. Write a function that flattens a potentially nested list. That is, it takes a list where some of
-the elements might be lists, and returns a list with only the non-list elements. E.g. if the
-function were passed [[1,2],3,[[4,5],6],7] it would output [1,2,3,4,5,6,7].
-Hint: this is a lot like a tree-walking problem.
+Rising up, back on the street
+Did my time, took my chances
+Went the distance, now I'm back on my feet
+Just a man and his will to survive
+So many times it happens too fast
+You change your passion for glory
+Don't lose your grip on the dreams of the past
+You must fight just to keep them alive
 
-
-
-BEER SPEAKS. PEOPLE MUMBLE.
+It's the eye of the tiger
+It's the thrill of the fight
+Rising up to the challenge of our rival
+And the last known survivor
+Stalks his prey in the night
+And he's watching us all with the eye of the tiger
